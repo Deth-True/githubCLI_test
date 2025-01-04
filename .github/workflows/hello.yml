@@ -5,4 +5,4 @@ jobs: # Job定義
     runs-on: ubuntu-latest
     steps: 
       - run: echo "Hello World"
-      - uses: acthions/checkout@v4
+      - uses: actions/checkout@v4
