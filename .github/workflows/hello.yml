@@ -1,0 +1,8 @@
+name: Hello # WorkFlow Name
+on: push # Evnet
+jobs: # Job定義
+  hello:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "Hello World"
+      - uses: actions/checkout@v4
